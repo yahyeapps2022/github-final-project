@@ -1,92 +1,48 @@
-# Cars Dealership – Full-Stack Capstone Project
+# fullstack_developer_capstone
 
 ## Project Overview
-This project was completed as part of the **Full-Stack Development Capstone**.  
-The goal was to build a **responsive, cloud-native web application** for *Cars Dealership*, a national car retailer in the United States.
+
+This repository contains the **Full-stack Development Capstone Project**, where I acted as a full-stack developer for a **Cars Dealership** system in the U.S. This project demonstrates the ability to build, deploy, and manage a responsive web application using modern full-stack technologies, microservices, and cloud deployment practices.
 
 The application allows users to:
-- View car dealership branches
-- Register and log in
-- View and submit dealer reviews
-- Analyze review sentiment
-- Filter dealers by state
-- View car makes and models
 
-The project follows **microservices architecture** and demonstrates **end-to-end full-stack development**, including frontend, backend, containerization, CI/CD, and cloud deployment.
+- View dealership branches and products
+- Check dealer pricing and availability
+- Submit and analyze customer reviews
+- Interact with a dynamic frontend and a robust backend
 
 ---
 
-## Technology Stack
+## Technologies Used
 
-### Frontend
-- React
-- HTML5 / CSS3
-- Bootstrap
+**Frontend:**
 
-### Backend
-- Django (Main application & Admin)
-- Flask (Sentiment Analysis Microservice)
-- Node.js (Dealer & Review APIs)
+- React.js
+- HTML5, CSS3
+- Bootstrap / Material UI (optional)
+- Axios for API calls
 
-### Databases
-- MongoDB (Dealer & Review data)
-- SQLite (Django authentication & admin)
+**Backend:**
 
-### DevOps & Cloud
-- Docker
-- Kubernetes
-- IBM Cloud Code Engine
-- GitHub Actions (CI/CD)
+- Django (Python)
+- Flask microservices for sentiment analysis
+- Node.js microservices
+- SQLite / MongoDB databases
 
----
+**DevOps & Deployment:**
 
-## Application Features
-- User registration and authentication
-- Dealer listing and filtering by state
-- Dealer review creation and display
-- Sentiment analysis on submitted reviews
-- Django admin panel for managing data
-- RESTful APIs using Flask and Node.js
-- Fully containerized microservices
-- Deployed on IBM Cloud Code Engine
+- Docker & Docker Compose
+- Kubernetes (k3s)
+- IBM Cloud Code Engine for containerized microservices
+- GitHub Actions for CI/CD
+
+**Other Tools & Libraries:**
+
+- Python Requests
+- React Router
+- Redux / Context API (optional)
+- Sentiment Analysis with Flask microservice
 
 ---
 
-## Microservices Architecture
-The application is composed of multiple independently deployed microservices:
-
-1. **Django Backend**
-   - User authentication
-   - Admin dashboard
-   - API gateway
-
-2. **Node.js Service**
-   - Dealer information
-   - Reviews management
-
-3. **Flask Service**
-   - Sentiment analysis for reviews
-
-4. **React Frontend**
-   - User interface
-   - Dealer browsing and reviews
-
----
-
-## CI/CD Pipeline
-- GitHub Actions used for:
-  - Code checkout
-  - Build and test
-  - Docker image creation
-  - Container registry push
-  - Deployment to IBM Cloud Code Engine
-
----
-
-## Deployment
-The application is deployed on **IBM Cloud Code Engine** using container images.  
-Each microservice is independently deployed and scaled.
-
----
-
-## Repository Structure
+## Project Structure
