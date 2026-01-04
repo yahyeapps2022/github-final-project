@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  django:
+    build: ./django-backend
+    ports:
+      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./django-backend:/app
+
+  node-dealer:
+    build: ./node-dealer
+    ports:
+      - "8080:8080"
+
+  sentiment:
+    build: ./flask-sentiment
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
