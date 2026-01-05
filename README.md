@@ -1,11 +1,8 @@
-# Simple Interest Calculator Project
+# Simple Interest Calculator
 
-This project is part of the Introduction to Git and GitHub final assignment.
+This repository contains a simple Bash script to calculate simple interest based on user input. 
 
-It demonstrates:
-- Basic GitHub repository management
-- Open source project structure
-- Bash scripting
-
-Author: Yahye  
-License: Apache 2.0
+## Features
+- Prompt user for Principal, Rate of Interest, and Time Period.
+- Calculate Simple Interest.
+- Display result in terminal.
